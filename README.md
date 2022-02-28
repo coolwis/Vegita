@@ -18,6 +18,8 @@ https://www.youtube.com/watch?v=86u8TmkRN38&list=PLRx0vPvlEmdAbnmLH9yh03cw9UQU_o
 * [시계열수치입력 수치예측 모델 레시피](https://tykimos.github.io/2017/09/09/Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe/) : 시계열(Time-Series Analysis) 예측 모델 학습자료로 참고하였습니다.
 
 * 기상청 기온과  농산물센터의 배추가격을 붙여서 날짜별 데이터를 만듦
+* price data.csv
+
 ![image](https://user-images.githubusercontent.com/1407572/155975456-e41b0f85-49fa-4c29-8d36-90880b8c676d.png)
 
 
