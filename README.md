@@ -1,3 +1,7 @@
+### 동빈나 유투버 강의 소스를 복사해 왔습니다.    
+https://www.youtube.com/watch?v=86u8TmkRN38&list=PLRx0vPvlEmdAbnmLH9yh03cw9UQU_o7PO&index=14
+
+
 ### 배추 가격 예측 인공지능 소프트웨어
 배추 가격을 예측하는 인공지능 소프트웨어입니다. <br/>
 
