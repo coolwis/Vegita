@@ -13,6 +13,11 @@
 * [월별 배추 가격](https://www.kamis.or.kr/customer/price/retail/period.do?action=monthly&yyyy=2018&period=10&countycode=&itemcategorycode=200&itemcode=211&kindcode=&productrankcode=&convert_kg_yn=N) : 실질적인 국내 월별 배추 가격을 분석하기 위해 참고하였습니다.
 * [시계열수치입력 수치예측 모델 레시피](https://tykimos.github.io/2017/09/09/Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe/) : 시계열(Time-Series Analysis) 예측 모델 학습자료로 참고하였습니다.
 
+* 기상청 기온과  농산물센터의 배추가격을 붙여서 날짜별 데이터를 만듦
+![image](https://user-images.githubusercontent.com/1407572/155975456-e41b0f85-49fa-4c29-8d36-90880b8c676d.png)
+
+
+
 ### 서버 실행 명령어
 ```
 # 깃 허브에서 소스코드를 다운로드 받습니다.
