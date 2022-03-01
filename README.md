@@ -28,6 +28,9 @@ https://www.youtube.com/watch?v=86u8TmkRN38&list=PLRx0vPvlEmdAbnmLH9yh03cw9UQU_o
 ### 서버 실행 명령어
 ```
 # 깃 허브에서 소스코드를 다운로드 받습니다.
+git clone https://github.com/coolwis/Vegita.git
+
+원본:
 git clone https://github.com/ndb796/Vegita.git
 
 # 받은 프로젝트 폴더로 이동합니다.
