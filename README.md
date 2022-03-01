@@ -1,4 +1,5 @@
-### 동빈나 유투버 강의 소스를 복사해 왔습니다.    
+### 동빈나 유투버 강의 소스를 사용하여 Aws EC2 에 적용해 보았습니다.
+
 https://www.youtube.com/watch?v=86u8TmkRN38&list=PLRx0vPvlEmdAbnmLH9yh03cw9UQU_o7PO&index=14
 
 
