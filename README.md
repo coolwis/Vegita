@@ -33,6 +33,9 @@ git clone https://github.com/coolwis/Vegita.git
 원본:
 git clone https://github.com/ndb796/Vegita.git
 
+# UI template 는  bootstrap을 활용
+https://mdbootstrap.com/freebies/
+
 # 받은 프로젝트 폴더로 이동합니다.
 cd Vegita
 
@@ -41,6 +44,8 @@ cd "Flask Web Server"
 
 # 웹 서버를 실행합니다.
 python server.py
+
+# http://127.0.0.1:5000 에서 확인
 ```
 
 ### 파이썬 데이터 학습 모델 생성 명령어
