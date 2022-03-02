@@ -10,7 +10,18 @@ tf.disable_v2_behavior()
 
 import numpy as np
 
+# for cross origin
+from flask_cors import CORS
+
 app = Flask(__name__)
+
+# for cross origin (참고사항)
+# CORS(app)
+cors = CORS(app, resources={
+        r"/v1/*": {"origin": "*"},
+        r"/ai/*": {"origin": "*"},
+        })
+
 
 # 플레이스 홀더를 설정합니다.
 X = tf.placeholder(tf.float32, shape=[None, 4])
@@ -62,4 +73,5 @@ def index():
         return render_template('index.html', price=price)
 
 if __name__ == '__main__':
-   app.run(debug = True)
+   app.run(host='0.0.0.0', port='2022', debug = True) # for external connect : 0.0.0.0
+   #app.run(debug = True)
