@@ -2,6 +2,12 @@
 
 https://www.youtube.com/watch?v=86u8TmkRN38&list=PLRx0vPvlEmdAbnmLH9yh03cw9UQU_o7PO&index=14
 
+### EC2 에서 FLASK SERVER 실행하여 접속하여 확인 가능
+```
+!!! host는 외부에서 접속 가능하도록 '0.0.0.0' 으로 지정
+*  app.run(host='0.0.0.0', port='2022', debug = True) # for external connect : 0.0.0.0
+*  python3 server.py
+```
 
 ### 배추 가격 예측 인공지능 소프트웨어
 배추 가격을 예측하는 인공지능 소프트웨어입니다. <br/>
