@@ -48,7 +48,7 @@ saver.restore(sess, save_path)
 @app.route("/", methods=['GET', 'POST'])
 def index():
     if request.method == 'GET':
-        return render_template('index.html')
+        return render_template('index_my.html')
     if request.method == 'POST':
         # 파라미터를 전달 받습니다.
         avg_temp = float(request.form['avg_temp'])
@@ -70,7 +70,7 @@ def index():
         # 결과 배추 가격을 저장합니다.
         price = dict[0]
 
-        return render_template('index.html', price=price)
+        return render_template('index_my.html', price=price)
 
 if __name__ == '__main__':
    app.run(host='0.0.0.0', port='2022', debug = True) # for external connect : 0.0.0.0
