@@ -1,6 +1,6 @@
 ### 동빈나 유투버 강의 소스를 사용하여 Aws EC2 에 적용해 보았습니다.
 
-http://ec2-3-38-136-151.ap-northeast-2.compute.amazonaws.com:2022
+(EC2 서버 재기동 필요)_http://ec2-3-38-136-151.ap-northeast-2.compute.amazonaws.com:2022
 
 #### 참고한 강의
 https://www.youtube.com/watch?v=86u8TmkRN38&list=PLRx0vPvlEmdAbnmLH9yh03cw9UQU_o7PO&index=14
