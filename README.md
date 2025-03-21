@@ -1,11 +1,15 @@
-### 동빈나 유투버 강의 소스를 사용하여 Aws EC2 에 적용해 보았습니다.
+### 동빈나 유투버 강의 소스를 사용하여 Aws EC2 개발 되었습니다.
+ http://ec2-3-34-69-170.ap-northeast-2.compute.amazonaws.com:2022
 
-(AWS EC2 서버 재기동 필요)  http://ec2-3-38-45-14.ap-northeast-2.compute.amazonaws.com:2022
-
-#### 참고한 강의
-https://www.youtube.com/watch?v=86u8TmkRN38&list=PLRx0vPvlEmdAbnmLH9yh03cw9UQU_o7PO&index=14
+# 기술 스펙
+'''
+pyhon
+Flask Web Api Server
+tensorflow
+'''
 
 ### EC2 에서 FLASK SERVER 실행하여 접속하여 확인 가능
+
 ```
 !!! host는 외부에서 접속 가능하도록 '0.0.0.0' 으로 지정
 *  app.run(host='0.0.0.0', port='2022', debug = True) # for external connect : 0.0.0.0
@@ -75,3 +79,7 @@ python "predict test.py"
 
 # 이후에 생성된 모델 파일을 웹 서버의 model 폴더에 붙여넣기 하면 적용됩니다.
 ```
+
+#### 참고한 강의
+https://www.youtube.com/watch?v=86u8TmkRN38&list=PLRx0vPvlEmdAbnmLH9yh03cw9UQU_o7PO&index=14
+
