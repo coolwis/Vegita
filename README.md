@@ -2,18 +2,18 @@
  http://ec2-3-34-69-170.ap-northeast-2.compute.amazonaws.com:2022
 
 # 기술 스펙
-'''
+```
 pyhon
 Flask Web Api Server
 tensorflow
-'''
+```
 
-### EC2 에서 FLASK SERVER 실행하여 접속하여 확인 가능
+### 실행: FLASK SERVER 실행하여 접속하여 확인 가능
 
 ```
-!!! host는 외부에서 접속 가능하도록 '0.0.0.0' 으로 지정
+   host는 외부에서 접속 가능하도록 '0.0.0.0' 으로 지정
 *  app.run(host='0.0.0.0', port='2022', debug = True) # for external connect : 0.0.0.0
-*  python3 server.py
+*  실행: python3 server.py
 ```
 
 ### 배추 가격 예측 인공지능 소프트웨어
